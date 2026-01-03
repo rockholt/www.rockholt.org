@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>How it works — rockholt.org</title>
+<meta name="description" content="How rockholt.org forwarding works.">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="icon" href="assets/logo.png" type="image/png" />
+<link rel="stylesheet" href="assets/styles.css" />
+
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <div class="nav">
+      <a class="brand" href="index.html" aria-label="rockholt.org home">
+        <div class="logo" aria-hidden="true"></div>
+        <div>
+          <div class="brandTitle">rockholt.org<span class="brandTag">Forwarding-only family addresses</span></div>
+        </div>
+      </a>
+      <nav class="navlinks" aria-label="Primary navigation">
+        <a href="how-it-works.html" style="color:var(--blue); background: rgba(13,59,102,.06)">How it works</a>
+        <a href="pricing.html" >Pricing</a>
+        <a href="faq.html" >FAQ</a>
+        <a href="contact.html" >Contact</a>
+        <a class="btn ghost" href="https://rockholt.com/">rockholt.com</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+
+<main>
+  <div class="pageHead">
+    <div class="wrap">
+      <h2>How it works</h2>
+      <p>rockholt.org provides email forwarding only. Messages sent to your @rockholt.org address are delivered to the destination email address you choose.</p>
+    </div>
+  </div>
+
+  <section>
+    <div class="wrap">
+      <div class="grid3">
+        <div class="card feature">
+          <h4>1) Choose your address</h4>
+          <p>Pick something simple like <em>firstname@rockholt.org</em> or a shared address like <em>family@rockholt.org</em>.</p>
+        </div>
+        <div class="card feature">
+          <h4>2) Tell us where to forward</h4>
+          <p>We point your forwarding address to the inbox you already use (Gmail, iCloud, work email, etc.).</p>
+        </div>
+        <div class="card feature">
+          <h4>3) Use it anywhere</h4>
+          <p>Give out your @rockholt.org address. Mail will arrive in your existing inbox automatically.</p>
+        </div>
+      </div>
+
+      <div class="card" style="padding:18px; margin-top:14px;">
+        <h3 style="font-size:18px; color:var(--blue2); margin-bottom:8px;">Important notes</h3>
+        <ul class="bullets" style="margin-top:0;">
+          <li>Forwarding is delivery only—there is no mailbox, login, or storage on rockholt.org.</li>
+          <li>Your destination inbox provider stores messages and handles most spam filtering.</li>
+          <li>If you need a full mailbox later, visit <a href="https://rockholt.com/"><strong>rockholt.com</strong></a>.</li>
+        </ul>
+        <div class="kicker">Forwarding is provided via Cloudflare Email Routing.</div>
+      </div>
+
+      <div class="ctaRow" style="margin-top:16px;">
+        <a class="btn primary" href="pricing.html">See pricing</a>
+        <a class="btn ghost" href="mailto:admin@rockholt.com?subject=rockholt.org%20Forwarding%20-%20Request&body=Preferred%20address%3A%20%0AForward%20to%3A%20">Request an address</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+
+<footer>
+  <div class="wrap">
+    <div class="footRow">
+      <div style="display:flex; align-items:center; gap:10px;">
+        <div class="logo" aria-hidden="true"></div>
+        <div>
+          <div style="color:var(--blue2); font-weight:900;">rockholt.org</div>
+          <div>Forwarding-only family addresses</div>
+        </div>
+      </div>
+      <div class="smallLinks" aria-label="Footer links">
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+    <div style="margin-top:10px;">
+      © <span id="year"></span> Rockholt Communication. All rights reserved.
+      <div style="margin-top:6px;">Email: <a href="mailto:admin@rockholt.com">admin@rockholt.com</a> • Web: <a href="https://rockholt.com/">rockholt.com</a></div>
+    </div>
+  </div>
+</footer>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+
+</body>
+</html>
