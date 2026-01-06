@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Block operational and user-facing internals
+Disallow: /api/
+Disallow: /mail/
+Disallow: /forward/
+Disallow: /users/
+Disallow: /account/
+Disallow: /billing/
+Disallow: /.well-known/
+
+Sitemap: https://rockholt.org/sitemap.xml
